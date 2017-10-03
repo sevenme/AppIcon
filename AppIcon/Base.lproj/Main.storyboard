@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,11 +12,68 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AppIcon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eci-Hy-3b6">
+                                <rect key="frame" x="159" y="318.5" width="57" height="30"/>
+                                <state key="normal" title="Random"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aNq-dO-mfV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AFf-cF-Nm1">
+                                <rect key="frame" x="30" y="70" width="60" height="60"/>
+                                <state key="normal" backgroundImage="d1.png"/>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Yk-82-8ID">
+                                <rect key="frame" x="157.5" y="70" width="60" height="60"/>
+                                <state key="normal" backgroundImage="d2.png"/>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yJr-MT-9lu">
+                                <rect key="frame" x="285" y="70" width="60" height="60"/>
+                                <state key="normal" backgroundImage="d3.png"/>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avB-3C-OZl">
+                                <rect key="frame" x="30" y="150" width="60" height="60"/>
+                                <state key="normal" backgroundImage="d4.png"/>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dmi-sY-S3M">
+                                <rect key="frame" x="285" y="150" width="60" height="60"/>
+                                <state key="normal" backgroundImage="d6.png"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选择你要的日历图标" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Us7-Nq-D8l">
+                                <rect key="frame" x="109.5" y="30" width="156" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXw-qF-G3B">
+                                <rect key="frame" x="157.5" y="150" width="60" height="60"/>
+                                <state key="normal" backgroundImage="d5.png"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TXw-qF-G3B" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="93r-GT-SWj"/>
+                            <constraint firstItem="AFf-cF-Nm1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="DVQ-uf-TOs"/>
+                            <constraint firstItem="Dmi-sY-S3M" firstAttribute="top" secondItem="avB-3C-OZl" secondAttribute="top" id="QU7-Nn-7nv"/>
+                            <constraint firstItem="7Yk-82-8ID" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wyz-5Q-Y8p"/>
+                            <constraint firstItem="Us7-Nq-D8l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XXu-sk-xvN"/>
+                            <constraint firstItem="eci-Hy-3b6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aAq-L8-MwF"/>
+                            <constraint firstItem="avB-3C-OZl" firstAttribute="leading" secondItem="AFf-cF-Nm1" secondAttribute="leading" id="feR-Ub-d1P"/>
+                            <constraint firstItem="TXw-qF-G3B" firstAttribute="top" secondItem="avB-3C-OZl" secondAttribute="top" id="hCM-7K-2l0"/>
+                            <constraint firstItem="eci-Hy-3b6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ikX-3t-x0t"/>
+                            <constraint firstItem="avB-3C-OZl" firstAttribute="top" secondItem="AFf-cF-Nm1" secondAttribute="bottom" constant="20" id="mVO-Zi-1MP"/>
+                            <constraint firstItem="7Yk-82-8ID" firstAttribute="top" secondItem="AFf-cF-Nm1" secondAttribute="top" id="n6S-GU-j5l"/>
+                            <constraint firstItem="AFf-cF-Nm1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="swq-Vt-MN6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yJr-MT-9lu" secondAttribute="trailing" constant="30" id="t0e-Dz-nbG"/>
+                            <constraint firstItem="Us7-Nq-D8l" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="wua-EO-0Fd"/>
+                            <constraint firstItem="yJr-MT-9lu" firstAttribute="top" secondItem="AFf-cF-Nm1" secondAttribute="top" id="xM2-PP-r9O"/>
+                            <constraint firstItem="Dmi-sY-S3M" firstAttribute="trailing" secondItem="yJr-MT-9lu" secondAttribute="trailing" id="zDp-wn-MVv"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -21,4 +81,12 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="d1.png" width="60" height="60"/>
+        <image name="d2.png" width="60" height="60"/>
+        <image name="d3.png" width="60" height="60"/>
+        <image name="d4.png" width="60" height="60"/>
+        <image name="d5.png" width="60" height="60"/>
+        <image name="d6.png" width="60" height="60"/>
+    </resources>
 </document>

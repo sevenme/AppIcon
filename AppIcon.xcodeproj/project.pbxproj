@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14877D391F8336150038C07A /* d3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14877D331F8336150038C07A /* d3@3x.png */; };
+		14877D3A1F8336150038C07A /* d1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14877D341F8336150038C07A /* d1@3x.png */; };
+		14877D3B1F8336150038C07A /* d3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14877D351F8336150038C07A /* d3@2x.png */; };
+		14877D3C1F8336150038C07A /* d1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14877D361F8336150038C07A /* d1@2x.png */; };
+		14877D3D1F8336150038C07A /* d2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14877D371F8336150038C07A /* d2@2x.png */; };
+		14877D3E1F8336150038C07A /* d2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14877D381F8336150038C07A /* d2@3x.png */; };
 		14AE9DE81F7F9291008D9415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE9DE71F7F9291008D9415 /* AppDelegate.swift */; };
 		14AE9DEA1F7F9291008D9415 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE9DE91F7F9291008D9415 /* ViewController.swift */; };
 		14AE9DED1F7F9291008D9415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14AE9DEB1F7F9291008D9415 /* Main.storyboard */; };
@@ -14,6 +20,13 @@
 		14AE9DF21F7F9291008D9415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14AE9DF01F7F9291008D9415 /* LaunchScreen.storyboard */; };
 		14AE9DFD1F7F9291008D9415 /* AppIconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE9DFC1F7F9291008D9415 /* AppIconTests.swift */; };
 		14AE9E081F7F9291008D9415 /* AppIconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE9E071F7F9291008D9415 /* AppIconUITests.swift */; };
+		14AE9E181F7F9317008D9415 /* UIViewController+Present.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AE9E171F7F9317008D9415 /* UIViewController+Present.m */; };
+		14E05B661F833F9000D80A19 /* d4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E05B641F833F9000D80A19 /* d4@2x.png */; };
+		14E05B671F833F9000D80A19 /* d4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E05B651F833F9000D80A19 /* d4@3x.png */; };
+		14E05B741F8340C400D80A19 /* d6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E05B701F8340C400D80A19 /* d6@3x.png */; };
+		14E05B751F8340C400D80A19 /* d5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E05B711F8340C400D80A19 /* d5@2x.png */; };
+		14E05B761F8340C400D80A19 /* d5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E05B721F8340C400D80A19 /* d5@3x.png */; };
+		14E05B771F8340C400D80A19 /* d6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E05B731F8340C400D80A19 /* d6@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14877D331F8336150038C07A /* d3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d3@3x.png"; sourceTree = "<group>"; };
+		14877D341F8336150038C07A /* d1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d1@3x.png"; sourceTree = "<group>"; };
+		14877D351F8336150038C07A /* d3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d3@2x.png"; sourceTree = "<group>"; };
+		14877D361F8336150038C07A /* d1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d1@2x.png"; sourceTree = "<group>"; };
+		14877D371F8336150038C07A /* d2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d2@2x.png"; sourceTree = "<group>"; };
+		14877D381F8336150038C07A /* d2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d2@3x.png"; sourceTree = "<group>"; };
 		14AE9DE41F7F9291008D9415 /* AppIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14AE9DE71F7F9291008D9415 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14AE9DE91F7F9291008D9415 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +66,15 @@
 		14AE9E031F7F9291008D9415 /* AppIconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppIconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14AE9E071F7F9291008D9415 /* AppIconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconUITests.swift; sourceTree = "<group>"; };
 		14AE9E091F7F9291008D9415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14AE9E151F7F9316008D9415 /* AppIcon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppIcon-Bridging-Header.h"; sourceTree = "<group>"; };
+		14AE9E161F7F9317008D9415 /* UIViewController+Present.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Present.h"; sourceTree = "<group>"; };
+		14AE9E171F7F9317008D9415 /* UIViewController+Present.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Present.m"; sourceTree = "<group>"; };
+		14E05B641F833F9000D80A19 /* d4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d4@2x.png"; sourceTree = "<group>"; };
+		14E05B651F833F9000D80A19 /* d4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d4@3x.png"; sourceTree = "<group>"; };
+		14E05B701F8340C400D80A19 /* d6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d6@3x.png"; sourceTree = "<group>"; };
+		14E05B711F8340C400D80A19 /* d5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d5@2x.png"; sourceTree = "<group>"; };
+		14E05B721F8340C400D80A19 /* d5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d5@3x.png"; sourceTree = "<group>"; };
+		14E05B731F8340C400D80A19 /* d6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d6@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +125,16 @@
 		14AE9DE61F7F9291008D9415 /* AppIcon */ = {
 			isa = PBXGroup;
 			children = (
+				14AE9E191F7FA17D008D9415 /* Icons */,
 				14AE9DE71F7F9291008D9415 /* AppDelegate.swift */,
 				14AE9DE91F7F9291008D9415 /* ViewController.swift */,
 				14AE9DEB1F7F9291008D9415 /* Main.storyboard */,
 				14AE9DEE1F7F9291008D9415 /* Assets.xcassets */,
 				14AE9DF01F7F9291008D9415 /* LaunchScreen.storyboard */,
 				14AE9DF31F7F9291008D9415 /* Info.plist */,
+				14AE9E151F7F9316008D9415 /* AppIcon-Bridging-Header.h */,
+				14AE9E161F7F9317008D9415 /* UIViewController+Present.h */,
+				14AE9E171F7F9317008D9415 /* UIViewController+Present.m */,
 			);
 			path = AppIcon;
 			sourceTree = "<group>";
@@ -123,6 +155,25 @@
 				14AE9E091F7F9291008D9415 /* Info.plist */,
 			);
 			path = AppIconUITests;
+			sourceTree = "<group>";
+		};
+		14AE9E191F7FA17D008D9415 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				14877D361F8336150038C07A /* d1@2x.png */,
+				14877D341F8336150038C07A /* d1@3x.png */,
+				14877D371F8336150038C07A /* d2@2x.png */,
+				14877D381F8336150038C07A /* d2@3x.png */,
+				14877D351F8336150038C07A /* d3@2x.png */,
+				14877D331F8336150038C07A /* d3@3x.png */,
+				14E05B641F833F9000D80A19 /* d4@2x.png */,
+				14E05B651F833F9000D80A19 /* d4@3x.png */,
+				14E05B711F8340C400D80A19 /* d5@2x.png */,
+				14E05B721F8340C400D80A19 /* d5@3x.png */,
+				14E05B731F8340C400D80A19 /* d6@2x.png */,
+				14E05B701F8340C400D80A19 /* d6@3x.png */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +244,7 @@
 				TargetAttributes = {
 					14AE9DE31F7F9291008D9415 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					14AE9DF71F7F9291008D9415 = {
@@ -232,9 +284,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14877D3C1F8336150038C07A /* d1@2x.png in Resources */,
 				14AE9DF21F7F9291008D9415 /* LaunchScreen.storyboard in Resources */,
 				14AE9DEF1F7F9291008D9415 /* Assets.xcassets in Resources */,
+				14E05B751F8340C400D80A19 /* d5@2x.png in Resources */,
+				14877D3E1F8336150038C07A /* d2@3x.png in Resources */,
+				14877D391F8336150038C07A /* d3@3x.png in Resources */,
+				14877D3D1F8336150038C07A /* d2@2x.png in Resources */,
+				14877D3B1F8336150038C07A /* d3@2x.png in Resources */,
+				14E05B671F833F9000D80A19 /* d4@3x.png in Resources */,
+				14E05B771F8340C400D80A19 /* d6@2x.png in Resources */,
 				14AE9DED1F7F9291008D9415 /* Main.storyboard in Resources */,
+				14E05B761F8340C400D80A19 /* d5@3x.png in Resources */,
+				14E05B741F8340C400D80A19 /* d6@3x.png in Resources */,
+				14E05B661F833F9000D80A19 /* d4@2x.png in Resources */,
+				14877D3A1F8336150038C07A /* d1@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +325,7 @@
 			files = (
 				14AE9DEA1F7F9291008D9415 /* ViewController.swift in Sources */,
 				14AE9DE81F7F9291008D9415 /* AppDelegate.swift in Sources */,
+				14AE9E181F7F9317008D9415 /* UIViewController+Present.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,11 +491,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AppIcon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app502.AppIcon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppIcon/AppIcon-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +508,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AppIcon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app502.AppIcon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppIcon/AppIcon-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
